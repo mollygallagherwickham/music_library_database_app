@@ -1,0 +1,20 @@
+<html>
+  <head></head>
+  <body>
+    <h1><%=@album.title%></h1>
+    <p>
+    Artist: <%=@artist.name%>
+      <br>
+      Release year: <%=@album.release_year%>
+    </p>
+    <br>
+    <p>Would you like to view another, add an album or go back to the homepage?</p>
+    <br>
+    <a href='/albums'>View all albums</a>
+    <br>
+    <a href='/albums/new'>Add an album</a>
+    <br>
+    <br>
+    <a href='/'>Go back to homepage</a>
+  </body>
+</html>

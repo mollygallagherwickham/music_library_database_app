@@ -1,0 +1,20 @@
+<!-- GET /albums -->
+<html>
+  <head></head>
+  <body>
+    <h1>Albums</h1>
+    <% @albums.each do |record| %>
+    
+      <div>
+      <br>
+      <a href="/albums/<%=record.id%>">
+    Title: <%=record.title %>
+    <br>
+    Release year: <%=record.release_year %>
+    </a>
+    </div>
+    <%end%>
+    <br>
+    <a href='/'>Click here to go back to homepage</a>
+  </body>
+</html>
