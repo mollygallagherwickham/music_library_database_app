@@ -44,4 +44,3 @@ describe ArtistRepository do
     expect(artists.last.name).to eq('Kiasmos')
   end
 end
-file.write "\n"
