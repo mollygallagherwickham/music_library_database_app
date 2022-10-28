@@ -58,3 +58,4 @@ describe AlbumRepository do
     expect(albums.first.id).to eq(2)
   end
 end
+file.write "\n"

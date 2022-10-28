@@ -38,3 +38,4 @@ class DatabaseConnection
     @connection.exec_params(query, params)
   end
 end
+file.write "\n"

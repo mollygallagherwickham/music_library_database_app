@@ -45,3 +45,4 @@ class ArtistRepository
     return artist
   end
 end
+file.write "\n"

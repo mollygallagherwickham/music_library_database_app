@@ -113,3 +113,4 @@ class Application < Sinatra::Base
     special_characters = /[@£$%^*<>]/
   end
 end
+file.write "\n"

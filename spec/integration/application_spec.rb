@@ -200,3 +200,4 @@ describe Application do
 end
 
 end
+file.write "\n"
