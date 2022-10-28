@@ -52,3 +52,5 @@ class AlbumRepository
     DatabaseConnection.exec_params(sql, [id]);
   end
 end
+
+file.write "\n"
